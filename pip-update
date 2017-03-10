@@ -1,0 +1,12 @@
+#! /usr/sbin/python
+
+import sys
+import pip
+from subprocess import call
+
+if len(sys.argv) > 1:
+    name = sys.argv[1]
+    call("pip install --upgrade " + name, shell=True)
+else:
+    for dist in pip.get_installed_distributions():
+        call("pip install --upgrade " + dist.project_name, shell=True)
