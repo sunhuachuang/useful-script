@@ -1,0 +1,8 @@
+{
+    "server":"104.194.75.15",
+    "server_port":442,
+    "local_port":1080,
+    "password":"JDLYrSbWh9",
+    "method": "aes-256-cfb",
+    "timeout":600
+}
