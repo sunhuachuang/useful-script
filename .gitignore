@@ -1,0 +1,3 @@
+*.pyc
+shadowsocks/config.json
+shadowsocks/error.log
